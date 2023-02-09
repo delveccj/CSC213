@@ -7,7 +7,7 @@ public class EmployeeDemo {
 	    Static initializer - used a bunch
 	    */
         
-	
+	/*
 	static{
 		System.out.println("----------------------------");
 		System.out.println("Exercise 8");
@@ -15,8 +15,7 @@ public class EmployeeDemo {
 		System.out.println("Examples used from book published in 2022.  They are " + (year - 2022) + " year old.");
 		System.out.println("Note the example of where this is being printed!");
 	}
-	
-	
+	*/
 	
 
 	
@@ -63,15 +62,15 @@ public class EmployeeDemo {
         There is only a 'fred' and 'Rue' instance.
         */
         
-        System.out.println("----------------------------");
-        System.out.println("Exercise 7");
+        //System.out.println("----------------------------");
+        //System.out.println("Exercise 7");
         
         /* This will lead to a compile error! */
         //Employee newEmployee = new Employee();
         /* This will not lead to a compile error! */
-        Employee newEmployee = new Employee("Newbie", 200000);
+        //Employee newEmployee = new Employee("Newbie", 200000);
 
-        System.out.println("New employee id should be 3 - right? Why is it: " + newEmployee.getId());
+        //System.out.println("New employee id should be 3 - right? Why is it: " + newEmployee.getId());
         
     }
 }

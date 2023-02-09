@@ -1,9 +1,4 @@
 public class Employee {
-	
-	static{
-		System.out.println("____");
-		System.out.println("Which one is loaded first - Employee or EmployeeDemo");
-	}
 	/* Exercise 5 Comment out the immediate next two and then uncomment the others*/
     //private String name;
     //private double salary;
@@ -28,9 +23,9 @@ public class Employee {
     
     public Employee(double salary){
     	/* Exercise3 - comment out these two lines and enable the one right below them */
-    	//this.name = "";
-    	//this.salary = salary;
-    	this("", salary);
+    	this.name = "";
+    	this.salary = salary;
+    	//this("", salary);
     	/* Exercise 4 - lets do something that throws an error or exception.
     	Uncomment the below
     	*/

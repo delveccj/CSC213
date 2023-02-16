@@ -1,14 +1,17 @@
 package edu.canisius.csc.lsp;
 
+import java.util.*;
+
 public class InterfaceDemo{
 
 
 	public static void main(String args[]){
 		
-///** Exercise 1
+/** Exercise 1
 		
 		System.out.println("Welcome to the Interface Demo!");
 		IntSequence intseq = new DigitSequence(1028328);
+		intseq.next();
 		// 1. Cast it to DigitSecquence 
 		DigitSequence digseq = (DigitSequence)intseq;
 		// 2. Cast it to Object
@@ -37,9 +40,9 @@ public class InterfaceDemo{
 		}
 		System.out.println("---------------------------------");
 		
-//**/ 
+End Exercise 1 **/  
 		
-///* Exercise 2
+/** Exercise 2
 	// Remember the obj - you can tell what it is with instanceof
 	if(obj instanceof IntSequence){
 		System.out.println("obj is an IntSequence");
@@ -56,9 +59,12 @@ public class InterfaceDemo{
 		System.out.println(digits.rest());
 	}
 
-//**/
+End Exercise 2 **/
 
-
+/** Exercise 4
+	List<Integer> numbers = List.of(1, 2, 3, 4, 5);
+	numbers.add(6);
+End Exercise 4**/
 	
 	}
 	

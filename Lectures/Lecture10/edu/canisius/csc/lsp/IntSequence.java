@@ -3,8 +3,9 @@ package edu.canisius.csc.lsp;
 
 public interface IntSequence{
 
-	boolean hasNext();
+	default boolean hasNext(){ return true;};
 	int next();
 
 }
+
 
